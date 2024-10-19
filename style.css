@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(46, 42, 42);
+    margin:0; /* To remove the gap between the header and the whole page*/
+}
+
+
+.parent-header{
+    background-color: rgb(165, 67, 67);
+    border-style: solid;
+    height: 100px;
+    display: flex; /* https://www.w3schools.com/css/css3_flexbox_container.asp */
+    flex-direction: column; /*used to enable flexbox and parent-header is the parent and header-text
+    and header-subtext is the children*/
+    justify-content: center; /*used to arrange the children in a vertical column*/
+    align-items: center; /*used to arrange the children in a horizontal column*/
+}
+
+.header-text{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px; /*margin for spacing*/
+    margin-top: 5px; /*margin for spacing*/
+    
+}
+
+.header-subtext{
+
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight:lighter;
+    margin-top: 5px; /*margin for spacing*/
+    margin-bottom: 5px; /*margin for spacing*/
+}
